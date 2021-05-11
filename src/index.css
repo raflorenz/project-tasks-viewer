@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  padding: 0 50px 50px;
+}
+
+.task-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list-item {
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+
+.task-list-item p {
+  margin: 0.5rem 0;
+}
